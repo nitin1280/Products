@@ -1,5 +1,5 @@
 # React Product App
-This is a simple React application that fetches and displays a list of products from an API endpoint. The application consists of two main components - ProductList and ProductDetails, along with some features like a search bar and a basic shopping cart functionality.
+This is a simple React application that fetches and displays a list of products from an API endpoint. The application consists of two main components - Home and Details, along with some features like a search bar and a basic shopping cart functionality.
 
 # Getting Started
 Clone the repository:
