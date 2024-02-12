@@ -1,0 +1,166 @@
+/* App.css */
+
+/* Basic styling for the app container */
+/* 
+  
+  /* Styling for individual item cards */
+  /* Styling for the card container */
+/* .card8 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 350px;
+  height: 550px;
+  background-color: black;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: inline-block;
+}  */
+
+/* Styling for the thumbnail image */
+/* .img5 {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+} */
+
+/* Styling for the paragraph elements */
+.card8 p {
+  margin: 5px 0;
+}
+
+/* Styling for the "+Watch" button */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+  
+  /* Styling for suggestions */
+  .suggestion-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suggestion-card img {
+    width: 80%;
+    height: 300px;
+    justify-content: center;
+    margin: 5px;
+    padding: 20px;
+  }
+  
+  .suggestion-card p {
+    margin: 8px 0;
+  }
+  
+  /* Styling for the button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db; /* Change the border color as needed */
+  border-radius: 5px;
+  background-color: #3498db; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background-color: #2980b9; /* Change the hover background color as needed */
+  color: #fff; /* Change the hover text color as needed */
+}
+  
+  .img5{
+    width: 80%;
+    height: 300px;
+    justify-content: center;
+    margin: 5px;
+    padding: 20px;
+  }
+  
+  /* Styling for search input and container */
+  .search-container {
+    background-color: #090b13;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #search-input {
+    background-color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    
+  }
+  
+  #search-input:focus {
+    outline: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+   
+    font-size: 16px;
+    border: 1px solid #ddd;
+    
+  }
+  
+  /* Styling for buttons */
+  .button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  p{
+    font-size: 24px;
+    color: #fff;
+  }
+  .lmg{
+    width: 5%; /* Adjust the width as needed */
+    margin-right: 1rem;
+  }
+ 
+  
+  @media (max-width: 600px) {
+    .button {
+      font-size: 14px;
+    }
+  }

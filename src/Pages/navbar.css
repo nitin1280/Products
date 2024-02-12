@@ -1,0 +1,143 @@
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.navContainer {
+  color: white;
+}
+
+.navContainer,
+.logo span {
+  width: 200px;
+  margin: 10px 30px;
+}
+.navItems {
+  display: flex;
+  gap: 20px;
+}
+.navBtn {
+  display: flex;
+  gap: 20px;
+}
+.navButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+  width: 100px;
+}
+
+.user-dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style for the font icons */
+.Font {
+  margin-right: 5px;
+}
+
+/* Style for the caret icon */
+.caret {
+  transition: transform 0.3s ease;
+}
+
+/* Open class for the caret icon when dropdown is open */
+.caret.open {
+  transform: rotate(180deg);
+}
+
+/* Style for the dropdown content */
+
+/* Style for the dropdown items */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+/* Hover effect for dropdown items */
+/* .dropdown-content a:hover {
+  background-color: #f2f2f2;
+} */
+
+/* Media query for responsiveness */
+/* @media screen and (max-width: 768px) {
+  .user {
+    width: 100%;
+  }
+}
+
+.navButton {
+  position: relative;
+  left: 100%;
+  font-size: 16px;
+  border-radius: 12px;
+  color: black;
+} */
+/* Style for the dropdown content */
+/* Style for the dropdown content */
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* left: 90%; */
+  top: 10%; /* Position below the user element */
+  z-index: 1;
+  margin-left: 20px;
+}
+
+/* Style for the links within the dropdown */
+.dropdown-content a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+.navbar {
+  height: auto;
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
+.navContainer {
+  flex-direction: column; /* Stack items vertically */
+  text-align: center; /* Center-align text */
+}
+
+.navContainer,
+.logo span {
+ width: 100%;
+ margin: 10px 0px;
+}
+
+.navButton {
+  margin: 10px 0px;
+  left: 0;
+  width: 80%;
+  /* Add space between buttons */
+}
+}

@@ -1,0 +1,110 @@
+/* App.css */
+
+.search-icon {
+  position: relative;
+  top: -60px; /* Adjust as needed */
+  right: 0px; /* Adjust as needed */
+  left: 80%;
+  cursor: pointer;
+  color: #555; /* Adjust the color as needed */
+}
+
+.search-icon:hover {
+  color: #000; /* Adjust the hover color as needed */
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+
+.product-item {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  
+}
+.tick1{
+  cursor: pointer;
+}
+.product-item img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  cursor: pointer;
+}
+
+.product-item strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.product-item span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.product-details {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 300px;
+  margin: 0 auto;
+  
+}
+
+.product-details h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-details img {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.product-details p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+
+.product-details button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db; /* Change the border color as needed */
+  border-radius: 5px;
+  background-color: #3498db; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.product-details button:hover {
+  background-color: #0056b3;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .product-item {
+    width: 100%; /* Adjust the width as per your design */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-details {
+    width: 100%;
+  }
+}
