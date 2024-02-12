@@ -26,15 +26,16 @@ Fetches a list of products from the https://dummyjson.com/products endpoint.
 Displays basic product information such as name, price, and an image.
 Implements an interactive product list where clicking on a product redirects the user to the product details page.
 
-# Features:
-
-The UI seamlessly integrates a search bar, clickable home logo for easy navigation, a product list for initial product exploration, and a dedicated product details page to delve into comprehensive information about the selected product.
-
 2. Details
 A separate React component for displaying detailed information about a specific product.
 Accepts the product ID as a parameter to fetch specific product details from https://dummyjson.com/products/:id.
 Displays product details, including name, description, price, images , category, brand, and rating.
 Styled attractively and responsively.
+
+# Features:
+
+The UI seamlessly integrates a search bar, clickable home logo for easy navigation, a product list for initial product exploration, and a dedicated product details page to delve into comprehensive information about the selected product.
+
 
 # User Interface Description:-
 The initial page features a home logo with clickable functionality, alongside a search navigation bar Search and Cart buttons positioned in the header. In the middle section of the page, there is a product list populated by fetching data from a specified API(https://dummyjson.com/products).
